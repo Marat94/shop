@@ -11,19 +11,19 @@ import Shares from "./pages/Shares";
 import News from "./pages/News";
 import Latest from "./pages/Latest";
 import AboutUs from "./pages/AboutUs";
-import Contacts from "./pages/Contacts";
-import Delivety from "./pages/Delivety";
+import Contact from "./pages/Contact";
+import Delivery from "./pages/Delivery";
 import Category from "./pages/Category";
 import MyCart from "./pages/MyCart";
 import NewsSing from "./pages/NewsSing";
 import Product from "./pages/Product";
-import Registr from "./pages/Registr";
+import Registration from "./pages/Registration";
 import Wishlist from "./pages/Wishlist";
-import Zakaz_1 from "./pages/Zakaz-1";
-import Zakaz_2 from "./pages/Zakaz-2";
-import Zakaz_3 from "./pages/Zakaz-3";
-import Zakaz_4 from "./pages/Zakaz-4";
-import CategorysMenu from "./helper/CategorysMenu";
+import Order_1 from "./pages/Order_1";
+import Order_2 from "./pages/Order_2";
+import Order_3 from "./pages/Order_3";
+import Order_4 from "./pages/Order_4";
+import CategoryMenu from "./helper/CategoryMenu";
 
 
 
@@ -37,19 +37,19 @@ class App extends Component {
                     <Route path="/news" component={News}/>
                     <Route path="/latest" component={Latest}/>
                     <Route path="/about-us" component={AboutUs}/>
-                    <Route path="/contacts" component={Contacts}/>
-                    <Route path="/delivety" component={Delivety}/>
+                    <Route path="/contacts" component={Contact}/>
+                    <Route path="/delivety" component={Delivery}/>
                     <Route path="/Category" component={Category}/>
                     <Route path="/my-cart" component={MyCart}/>
                     <Route path="/news-sing" component={NewsSing}/>
                     <Route path="/product" component={Product}/>
-                    <Route path="/registr" component={Registr}/>
+                    <Route path="/registr" component={Registration}/>
                     <Route path="/wishlist" component={Wishlist}/>
-                    <Route path="/zakaz-1" component={Zakaz_1}/>
-                    <Route path="/zakaz-2" component={Zakaz_2}/>
-                    <Route path="/zakaz-3" component={Zakaz_3}/>
-                    <Route path="/zakaz-4" component={Zakaz_4}/>
-                    <Route path="/categorys-menu" component={CategorysMenu}/>
+                    <Route path="/zakaz-1" component={Order_1}/>
+                    <Route path="/zakaz-2" component={Order_2}/>
+                    <Route path="/zakaz-3" component={Order_3}/>
+                    <Route path="/zakaz-4" component={Order_4}/>
+                    <Route path="/categorys-menu" component={CategoryMenu}/>
 
                     <Route path="/header" component={Header} />
                     <Route path="/footer" component={Footer} />

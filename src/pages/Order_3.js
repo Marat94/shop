@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Wrapper from "../components/Wrapper";
 import {Link} from "react-router-dom";
 
-class Zakaz3 extends Component {
+class Order_3 extends Component {
     render() {
         return (
             <Wrapper>
@@ -95,4 +95,4 @@ class Zakaz3 extends Component {
     }
 }
 
-export default Zakaz3;
+export default Order_3;

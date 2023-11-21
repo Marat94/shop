@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Wrapper from "../components/Wrapper";
 import {Link} from "react-router-dom";
 
-class Registr extends Component {
+class Registration extends Component {
     render() {
         return (
             <Wrapper>
@@ -77,4 +77,4 @@ class Registr extends Component {
     }
 }
 
-export default Registr;
+export default Registration;
