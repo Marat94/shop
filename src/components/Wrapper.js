@@ -1,17 +1,18 @@
-import React, {Component} from 'react';
+import React from 'react';
 import Header from "./Header";
 import Footer from "./Footer";
 
-class Wrapper extends Component {
-    render() {
-        return (
-            <div>
-                <Header/>
-                {this.props.children}
-                <Footer/>
-            </div>
-        );
-    }
+
+const Wrapper = ({children}) => {
+  return (
+    <>
+      <Header/>
+      {children}
+      <Footer/>
+    </>
+
+  )
 }
+
 
 export default Wrapper;
